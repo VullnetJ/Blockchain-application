@@ -6,7 +6,7 @@ contract Transactions {
 
     event Transfer(address from, address receiver, uint amount, string messsage, uint256 timestamp, string keyword);
 
-    // transaction properties need to have:
+    // transaction properties we need to have:
     struct TransferStruct {
         address sender;
         address receiver;

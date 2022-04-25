@@ -1,4 +1,5 @@
 import React from "react";
+
 import {BsShieldFillCheck} from 'react-icons/bs';
 import {BiSearchAlt} from 'react-icons/bi';
 import {RiHeart2Fill} from 'react-icons/ri';
@@ -14,7 +15,7 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
         <p className="mt-1 text-white text-sm md:w-9/12">
           {subtitle}
         </p>
-      </div>
+      </div> 
     </div>
   );
   
@@ -23,34 +24,34 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
       <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
         <div className="flex-1 flex flex-col justify-start items-start">
           <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-            Services that we
+            We provide the best services 
             <br />
-            continue to improve
+            and we thrive to improve even more
           </h1>
           <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-            The best choice for buying and selling your crypto assets, with the
-            various super friendly services we offer
+            In our platform, we enable you with the possibility to buy and sell assets that are stored in blockchain. 
+            We offer most friendly services you ever seen. 
           </p>
         </div>
   
         <div className="flex-1 flex flex-col justify-start items-center">
           <ServiceCard
             color="bg-[#2952E3]"
-            title="Security gurantee"
+            title="Stored in Blockchain"
             icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-            subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+            subtitle="It is verified and untampered. We care for your privacy, that's why you can create as many pseudo-names as you like"
           />
           <ServiceCard
             color="bg-[#8945F8]"
-            title="Best exchange rates"
+            title="Same rules"
             icon={<BiSearchAlt fontSize={21} className="text-white" />}
-            subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+            subtitle="Everyone plays by same rules. There are no exception to anyone. It is fair"
           />
           <ServiceCard
             color="bg-[#F84550]"
-            title="Fastest transactions"
+            title="Transparency"
             icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-            subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+            subtitle="Everything what has happened and what is done is seen by everyone. There are no backdoors deals"
           />
         </div>
       </div>

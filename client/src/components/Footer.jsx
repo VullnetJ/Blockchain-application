@@ -9,15 +9,15 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-32" />
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Tutorials</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Wallets</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">Decentralized Network</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange Market</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">Learn more</p>
+        <p className="text-white text-base text-center mx-2 cursor-pointer">My Wallets</p>
       </div>
     </div>
 
     <div className="flex justify-center items-center flex-col mt-5">
-      <p className="text-white text-sm text-center">Come join us and hear for the unexpected miracle</p>
+      <p className="text-white text-sm text-center">Here will be more info where you can learn about blockchain technology</p>
       <p className="text-white text-sm text-center font-medium mt-2">info@kryptoocean.com</p>
     </div>
 

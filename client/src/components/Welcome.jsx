@@ -41,7 +41,7 @@ const Welcome = () => {
             Send Crypto <br /> across the world
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+            Explore the Decentralized Market. You can easy transfer crypto from our website. 
           </p>
           {!currentAccount && (
             <button
@@ -58,18 +58,18 @@ const Welcome = () => {
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
-              Reliability
+              Immutable
             </div>
-            <div className={companyCommonStyles}>Security</div>
+            <div className={companyCommonStyles}>Super Secure</div>
             <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
-              Ethereum
+              Untampered 
             </div>
             <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
               Web 3.0
             </div>
-            <div className={companyCommonStyles}>Low Fees</div>
+            <div className={companyCommonStyles}>Very Low Fees</div>
             <div className={`rounded-br-2xl ${companyCommonStyles}`}>
-              Blockchain
+              Decentralized Network
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ const Welcome = () => {
                 <p className="text-white font-light text-sm">
                   {shortenAddress(currentAccount)}
                 </p>
-                <p className="text-white font-semibold text-lg mt-1">
+                <p className="text-white font-semibold text-lg mt-2">
                   Ethereum
                 </p>
               </div>
@@ -95,9 +95,9 @@ const Welcome = () => {
           </div>
           <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
             <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
-            <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
-            <Input placeholder="Keyword (Gif)" name="keyword" type="text" handleChange={handleChange} />
-            <Input placeholder="Enter Message" name="message" type="text" handleChange={handleChange} />
+            <Input placeholder="Amount in Ethereum (ETH)" name="amount" type="number" handleChange={handleChange} />
+            <Input placeholder="Keyword, write a keyword, (Gif)" name="keyword" type="text" handleChange={handleChange} />
+            <Input placeholder="Write a Message" name="message" type="text" handleChange={handleChange} />
 
             <div className="h-[1px] w-full bg-gray-400 my-2" />
 
